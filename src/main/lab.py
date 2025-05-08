@@ -21,4 +21,6 @@ class Lab:
     this method has a return type of None - it doesn't need to return anything since the 
     test cases are just checking for a raised exception!
     """
+    def must_throw(self):
+        raise Exception("This is a deliberate exception for testing prposes.")
     
